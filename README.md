@@ -84,23 +84,48 @@ BINANCE_TESTNET=True
 
 ## Usage
 
-### 🎯 Interactive CLI Interface (NEW!)
+### 🎯 Interactive CLI Interface (Easiest - ⭐ Recommended)
 
-The easiest way to use the bot is through the interactive menu:
+**The easiest and most user-friendly way to use the bot!**
 
 ```bash
 python -m src.cli_interface
 ```
 
-**Features:**
-- 📊 Menu-driven interface
-- 💰 Market & Limit orders with guided input
-- 📈 View current prices for multiple symbols
-- 📋 View recent logs
-- ✅ Order confirmation before execution
-- 💡 Helpful hints and minimum quantity calculations
+**Why use the Interactive CLI?**
+- 📊 **Menu-driven interface** - No commands to remember
+- 💰 **Guided order entry** - Step-by-step prompts for Market & Limit orders
+- 📈 **Real-time prices** - View current prices for multiple symbols
+- 📋 **Log viewer** - Check recent activity without opening files
+- ✅ **Order confirmation** - Review before execution
+- 💡 **Smart hints** - Automatic minimum quantity calculations
+- 🎓 **Perfect for beginners** - Learn as you trade!
 
-**Perfect for beginners!** The interactive CLI guides you through each step.
+**Example Flow:**
+1. Run `python -m src.cli_interface`
+2. Select option (e.g., 1 for Market Order)
+3. Choose symbol (e.g., BTCUSDT)
+4. Choose side (BUY or SELL)
+5. Enter quantity
+6. Confirm and execute!
+
+**Screenshot:**
+```
+📊 MAIN MENU
+----------------------------------------------------------------------
+  1. Market Order (Buy/Sell at current price)
+  2. Limit Order (Buy/Sell at specific price)
+  3. Stop-Limit Order (Advanced)
+  4. OCO Order (Take-Profit + Stop-Loss)
+  5. TWAP Strategy (Split large orders)
+  6. Grid Trading (Automated range trading)
+----------------------------------------------------------------------
+  7. View Current Prices
+  8. Check Account Balance
+  9. View Recent Logs
+  0. Exit
+----------------------------------------------------------------------
+```
 
 ---
 
