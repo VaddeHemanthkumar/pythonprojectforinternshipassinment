@@ -84,6 +84,30 @@ BINANCE_TESTNET=True
 
 ## Usage
 
+### 🎯 Interactive CLI Interface (NEW!)
+
+The easiest way to use the bot is through the interactive menu:
+
+```bash
+python -m src.cli_interface
+```
+
+**Features:**
+- 📊 Menu-driven interface
+- 💰 Market & Limit orders with guided input
+- 📈 View current prices for multiple symbols
+- 📋 View recent logs
+- ✅ Order confirmation before execution
+- 💡 Helpful hints and minimum quantity calculations
+
+**Perfect for beginners!** The interactive CLI guides you through each step.
+
+---
+
+### Command Line Usage
+
+For advanced users or automation, use direct commands:
+
 ### Market Orders
 ```bash
 python -m src.market_orders BTCUSDT BUY 0.002
