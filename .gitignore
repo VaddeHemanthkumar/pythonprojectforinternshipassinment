@@ -41,3 +41,11 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Documentation files (keep only README.md visible)
+*.md
+!README.md
+
+# Demo and batch files
+*.bat
+*.ps1
